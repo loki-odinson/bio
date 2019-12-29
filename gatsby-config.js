@@ -6,4 +6,20 @@
 
 module.exports = {
   /* Your site config here */
+
+  siteMetadata: {
+    title: `I like Google Fonts`
+  },
+  plugins: [
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `bungee inline`,
+          `staatliches`
+        ],
+        display: 'swap'
+      }
+    }
+  ]
 }
