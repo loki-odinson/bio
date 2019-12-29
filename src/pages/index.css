@@ -1,0 +1,12 @@
+body{
+    background-color: rgba(51,51,51,1);
+    padding: 10px 40px;
+}
+
+.start{
+    position: relative;
+}
+
+button{
+    cursor: pointer;
+}

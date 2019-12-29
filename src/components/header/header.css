@@ -1,0 +1,10 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h1{
+    font-family: 'Bungee Inline', cursive;
+    color: #E2E236;
+}
