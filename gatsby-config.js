@@ -12,13 +12,16 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-google-fonts`,
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
         fonts: [
-          `bungee inline`,
-          `staatliches`
-        ],
-        display: 'swap'
+          {
+            family: `Bungee Inline`
+          },
+          {
+            family: `Staatliches`
+          }
+        ]
       }
     }
   ]
